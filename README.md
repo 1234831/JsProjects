@@ -1,2 +1,2 @@
 # JsProjects
- Js projects developed with html css and Js 
+ Js 20 projects developed with html css and Js 
