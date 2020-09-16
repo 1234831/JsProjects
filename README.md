@@ -1,2 +1,2 @@
 # JsProjects
- Js projects with high passion
+ Js projects developed with html css and Js 
