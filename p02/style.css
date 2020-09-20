@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(202, 67, 67, 0.801);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.movie-container {
+    margin: 20px 0;
+}
+
+.movie-container select {
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 5px 15px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.seat {
+    background-color: brown;
+    height: 12px;
+    width: 15px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.seat.selected {
+    background-color: cadetblue;
+}
+
+.seat.Occuppied {
+    background-color: black;
+}
+
+.seat:nth-of-type(2) {
+    margin-right: 20px;
+}
+
+.seat:nth-last-of-type(2) {
+    margin-left: 20px;
+}
+
+.seat:not(.Occuppied):hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.legend {
+    background-color: rgba(77, 76, 40, 0.418);
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: black;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.legend li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.legend li small {
+    margin-left: 2px;
+}
+
+.legend .seat:not(.Occuppied):hover {
+    cursor: default;
+    transform: scale(1);
+}
+
+.container {
+    perspective: 1000px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.screen {
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 100%;
+    transform: rotateX(-45deg);
+    margin: 15px 0;
+    box-shadow: 0 3px 10px rgb(34, 29, 29);
+}
+
+p.text {
+    margin: 5px 0;
+}
+
+p.text span {
+    color: aquamarine;
+}
