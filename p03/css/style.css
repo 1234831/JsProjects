@@ -11,4 +11,60 @@ body {
     justify-content: center;
     max-height: 100vh;
     margin: 0;
+    background-color: lightgray;
+}
+
+h1 {
+    color: white;
+}
+
+.screen {
+    cursor: pointer;
+    width: 60%;
+    background-color: black !important;
+}
+
+.controls {
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 60%;
+    padding: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.fa-play {
+    color: whitesmoke;
+}
+
+.fa-stop {
+    color: whitesmoke;
+}
+
+.fa-pause {
+    color: brown;
+}
+
+span.timestamp {
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+@media(max-width:800px) {
+    .screen,
+    .controls {
+        width: 90%;
+    }
 }
