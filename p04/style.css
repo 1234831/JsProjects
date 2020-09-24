@@ -53,6 +53,7 @@ p {
     padding: 15px 10px;
     border: 1px solid lightgray;
     font-size: 16px;
+    width: 50%;
 }
 
 .currency input {
@@ -62,6 +63,7 @@ p {
     font-size: 28px;
     width: 100px;
     text-align: center;
+    width: 50%;
 }
 
 .flip-container {
