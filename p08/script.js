@@ -90,6 +90,8 @@ function addMealToDom(meal) {
         </div>
     `;
 }
+
+
 //Event listners
 //1- Submit form
 submit.addEventListener('submit', searchmeal);
@@ -108,5 +110,4 @@ mealContainer.addEventListener('click', e => {
         getMealById(mealId);
 
     }
-
 })
